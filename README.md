@@ -56,7 +56,43 @@ CREATE TABLE attendance (
 );
 ```
 
+### How to Run the Project
 
+Follow these steps to start the backend and frontend.
 
+#### 1. Start the Backend
 
+Open a terminal and go to the backend folder:
+
+```bash
+cd hrms-lite/backend
+```
+
+Run the backend server:
+
+```bash
+uvicorn app:main --reload
+```
+
+#### 2. Start the Frontend
+
+Open a **new terminal** and go to the frontend folder:
+
+```bash
+cd hrms-lite/frontend
+```
+
+Run the frontend server:
+
+```bash
+npm run dev
+```
+
+#### 3. Open the Application
+
+After both servers are running, open your browser and visit:
+
+```
+http://localhost:5173
+```
 
