@@ -96,3 +96,9 @@ After both servers are running, open your browser and visit:
 http://localhost:5173
 ```
 
+**Assumptions / Limitations**
+
+- The system assumes that employee IDs are unique for each employee.
+- The application is designed for basic HR operations and does not include advanced HR features like payroll or leave management.
+- The system runs in a local development environment (localhost) and is not configured for production deployment.
+- The project supports basic CRUD operations and may require additional validation and security for real-world use.
